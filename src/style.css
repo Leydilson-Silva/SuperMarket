@@ -1,0 +1,71 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+* {
+    font-family: 'Inter', sans-serif;
+
+}
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+/* 
+
+header{
+    background-color: #5a71bb;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+
+.lista-cadastro{
+    display: flex;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.lista-cadastro input[type="text"]{
+    flex: 1;
+    height: 33px;
+    padding-left: 20px;
+}
+
+.lista-produtos-single{
+    padding: 10px 0;
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+
+.lista-produtos-single h3{
+    flex: 1;
+    padding: 0 20px;
+}
+
+h3.price-produto{
+    text-align: right;
+    font-size: 16px;
+}
+h3.price-produto > span{
+    background-color: #5a71bb;
+    padding: 8px 10px;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+
+.soma-produto{
+    margin:20px 0;
+    padding: 0 20px;
+}
+
+.resultados{
+    display: flex;
+    justify-content: space-between;
+} */
