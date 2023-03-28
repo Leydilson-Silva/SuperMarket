@@ -40,7 +40,7 @@ Basta selecionar a moeda que deseja usar e adicionar os itens, quantidades e val
 
 **Front-end:** 
 - HTML
-- JavaScript(vanila)
+- JavaScript
 - BulmaCSS
 
 
