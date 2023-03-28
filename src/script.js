@@ -18,10 +18,76 @@ var moeda = [
 
 
 function selecionarMoeda(entradaUsuario) {
-    codCoin = parseInt(entradaUsuario);
-    console.log(codCoin);
+    codCoin = entradaUsuario;
+    console.log(entradaUsuario);
+    vizualizarProduto();
+
+
 
 }
+
+function vizualizarProduto() {
+
+    let listaProdutos = document.querySelector('.lista-produtos');
+    let totalCompras = 0;
+
+    listaProdutos.innerHTML = '';
+
+    items.map(produto => {
+        totalCompras += parseFloat(produto.valor) * parseInt(produto.qtd)
+
+
+        listaProdutos.innerHTML += `
+                
+                 
+                <tr>
+                    <td class="has-text-success">`+ produto.nome + `</h3></td>
+                    <td class="has-text-success">`+ produto.qtd + `x</h3></td>
+                    <td class="price-produto has-text-success"> <span>`+ currentCoin(produto.valor) + `</span></td>
+
+                </tr>
+                
+                `;
+    });
+
+   
+
+    let carrinho = document.querySelector('.soma-produtos');
+    carrinho.innerHTML = `
+            <abbr title="Total da compra"> Total: `+ currentCoin(totalCompras) + `</abbr>
+                 
+            `;
+};
+
+function cadastrarProduto() {
+    var nomeProduto = document.querySelector("input[name='nome_produto']");
+    var qtdProduto = document.querySelector("input[name='qtd_produto']");
+    var precoProduto = document.querySelector("input[name='valor_produto']");
+
+
+
+    if (nomeProduto.value == '' || precoProduto.value == '') {
+        if (nomeProduto.value == '') {
+            alert("Insira o nome do produto");
+        } else
+            alert("Insira o valor do produto");
+    } else {
+
+        items.push({
+            nome: nomeProduto.value,
+            qtd: qtdProduto.value,
+            valor: precoProduto.value
+        });
+
+        vizualizarProduto();
+
+        nomeProduto.value = '';
+        qtdProduto.value = '';
+        precoProduto.value = '';
+    }
+}
+
+
 
 
 function currentCoin(value) {
@@ -33,61 +99,7 @@ function currentCoin(value) {
 
 
 document.querySelector("input[type=submit]")
-    .addEventListener('click', () => {
-        var nomeProduto = document.querySelector("input[name='nome_produto']");
-        var qtdProduto = document.querySelector("input[name='qtd_produto']");
-        var precoProduto = document.querySelector("input[name='valor_produto']");
-
-
-
-        if (nomeProduto.value == '' || precoProduto.value == '') {
-            if (nomeProduto.value == '') {
-                alert("Insira o nome do produto");
-            } else
-                alert("Insira o valor do produto");
-        } else {
-
-            items.push({
-                nome: nomeProduto.value,
-                qtd: qtdProduto.value,
-                valor: precoProduto.value
-            });
-
-
-            let listaProdutos = document.querySelector('.lista-produtos');
-            let totalCompras = 0;
-
-            listaProdutos.innerHTML = '';
-
-            items.map(produto => {
-                totalCompras += parseFloat(produto.valor) * parseInt(produto.qtd)
-                
-
-                listaProdutos.innerHTML += `
-                
-                 
-                <tr>
-                    <td class="has-text-success">`+ produto.nome + `</h3></td>
-                    <td class="has-text-success">`+ produto.qtd + `x</h3></td>
-                    <td class="price-produto has-text-success"> <span>`+ currentCoin(produto.valor) + `</span></td>
-
-                </tr>
-                
-                `;
-            });
-
-            nomeProduto.value = '';
-            qtdProduto.value = '';
-            precoProduto.value = '';
-
-            let carrinho = document.querySelector('.soma-produtos');
-            carrinho.innerHTML = `
-            <abbr title="Total da compra"> Total: `+ currentCoin(totalCompras) + `</abbr>
-                 
-            `;
-
-        }
-    });
+    .addEventListener('click', () => cadastrarProduto());
 
 
 document.querySelector("button[name=clear]")
