@@ -41,9 +41,10 @@ Pagina voltada a criação de lista de compras com seleção de moeda e calculo 
 
 ## Referência
 
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/NumberFormat)
  - [Bulma Documentation](https://bulma.io/documentation/)
  - [Danki Code - javascript Completo](https://cursos.dankicode.com/curso-javascript-completo)
+ - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
 
 
 ## 🔗 Contatos
