@@ -1,3 +1,4 @@
+
 ![Logo](./src/svg/logoFull.svg)
 
 
@@ -13,26 +14,6 @@ Pagina voltada a criação de lista de compras com seleção de moeda e calculo 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-
-## Stack utilizada
-
-**Front-end:** HTML, JavaScript, BulmaCSS
-
-
-
-
-## Funcionalidades
-
-- Preview em tempo real
-- Responsividade
-
-
-## 🔗 Contatos
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/Leydilson-Silva) 
-
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leydilson/)
-
 
 ## Documentação de cores
 
@@ -55,6 +36,19 @@ Pagina voltada a criação de lista de compras com seleção de moeda e calculo 
 | Cor exemplo       | ![#363636](https://via.placeholder.com/10/363636?text=+) #363636 |
 | Cor exemplo       | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
 
+## Stack utilizada
+
+**Front-end:** HTML, JavaScript(vanila), BulmaCSS
+
+
+
+
+## Funcionalidades
+
+- Preview em tempo real
+- Responsividade
+
+
 ## Referência
 
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
@@ -62,6 +56,14 @@ Pagina voltada a criação de lista de compras com seleção de moeda e calculo 
  - [Danki Code - javascript Completo](https://cursos.dankicode.com/curso-javascript-completo)
 
 
+## 🔗 Contatos
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/Leydilson-Silva) 
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leydilson/)
+
+
+
 ## Licença
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
