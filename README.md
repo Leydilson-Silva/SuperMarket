@@ -11,9 +11,9 @@ Pagina voltada a criação de lista de compras com seleção de moeda e calculo 
 
 ## Preview
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](./src/pagePreview.png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](./src/preview/coinSelection.png)
 
 ## Documentação de cores
 
@@ -36,11 +36,13 @@ Pagina voltada a criação de lista de compras com seleção de moeda e calculo 
 | Cor exemplo       | ![#363636](https://via.placeholder.com/10/363636?text=+) #363636 |
 | Cor exemplo       | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
 
+
 ## Stack utilizada
 
-**Front-end:** HTML, JavaScript(vanila), BulmaCSS
-
-
+**Front-end:** 
+- HTML
+- JavaScript(vanila)
+- BulmaCSS
 
 
 ## Funcionalidades
