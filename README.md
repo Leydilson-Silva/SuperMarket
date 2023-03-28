@@ -2,7 +2,7 @@
 ![Logo](./src/svg/logoFull.svg)
 
 
-##
+
 Pagina voltada a criação de lista de compras com seleção de moeda e calculo de total da compra.
 
 [Acesse aqui!](https://leydilson-silva.github.io/SuperMarket/)
