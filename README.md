@@ -43,6 +43,7 @@ Pagina voltada a criação de lista de compras com seleção de moeda e calculo 
 
  - [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/NumberFormat)
  - [Bulma Documentation](https://bulma.io/documentation/)
+ - [Stackoverflow](https://stackoverflow.com/questions/22057610/uncaught-typeerror-cannot-read-property-value-of-null)
  - [Danki Code - javascript Completo](https://cursos.dankicode.com/curso-javascript-completo)
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
 
