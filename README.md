@@ -1,9 +1,18 @@
 
 ![Logo](./src/svg/logoFull.svg)
 
-
+<p align="center">
+<img src="http://img.shields.io/static/v1?label=STATUS&message=concluido&color=GREEN&style=for-the-badge"/>
+</p>
 
 Pagina voltada a criação de lista de compras com seleção de moeda e calculo de total da compra.
+
+__Modo de usar__:
+```
+Basta selecionar a moeda que desejar usar e adicionar os itens, quantidades e valores.
+```
+
+
 
 [Acesse aqui!](https://leydilson-silva.github.io/SuperMarket/)
 
@@ -13,6 +22,8 @@ Pagina voltada a criação de lista de compras com seleção de moeda e calculo 
 ![App Screenshot](./src/preview/pagePreview.png)
 
 ![App Screenshot](./src/preview/coinSelection.png)
+
+<img src="./src/preview/mobileSelection.png" width="300">  <img src="./src/preview/mobilePreview.png" width="300">
 
 ## Documentação de cores
 | Cores de fundo                                                   | Cor do texto                                                 |
@@ -57,5 +68,5 @@ Pagina voltada a criação de lista de compras com seleção de moeda e calculo 
 
 ## Licença
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[![MIT](https://img.shields.io/badge/Licence-MIT-success)](https://choosealicense.com/licenses/mit/)
 
