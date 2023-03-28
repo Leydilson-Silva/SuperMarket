@@ -9,7 +9,7 @@ Pagina voltada a criação de lista de compras com seleção de moeda e calculo 
 
 __Modo de usar__:
 ```
-Basta selecionar a moeda que desejar usar e adicionar os itens, quantidades e valores.
+Basta selecionar a moeda que deseja usar e adicionar os itens, quantidades e valores.
 ```
 
 
