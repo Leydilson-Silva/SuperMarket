@@ -11,7 +11,7 @@ Pagina voltada a criação de lista de compras com seleção de moeda e calculo 
 
 ## Preview
 
-![App Screenshot](./src/pagePreview.png)
+![App Screenshot](./src/preview/pagePreview.png)
 
 ![App Screenshot](./src/preview/coinSelection.png)
 
